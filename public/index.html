@@ -36,6 +36,9 @@
       <!-- Plausible Analytics -->
       <script defer data-domain="%REACT_APP_PLAUSIBLE_DOMAIN%" src="https://plausible.io/js/plausible.js"></script>
     <% } %>
+      <style type="text/css">
+        .dark .content{color:#fff;}
+      </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -50,7 +53,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <div style="padding:35px">
+    <div class="content" style="padding:35px">
       <h2 style="font-size:24px">What is Wordle?</h2>
       <br />
       <p>Josh Wardle is a Welsh software engineer who created and developed the web-based word game Wordle. The game has been owned and published by The New York Times Company since 2022.</p>
